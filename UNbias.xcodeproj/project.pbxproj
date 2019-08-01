@@ -15,8 +15,8 @@
 		1864302422F21BD6001796C4 /* MyJournalsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1864302322F21BD6001796C4 /* MyJournalsTableViewController.swift */; };
 		1864302622F21DF3001796C4 /* AddEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1864302522F21DF3001796C4 /* AddEntryViewController.swift */; };
 		1864302822F21E0F001796C4 /* ShowEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1864302722F21E0F001796C4 /* ShowEntryViewController.swift */; };
+		1864303622F3572A001796C4 /* GeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1864303522F3572A001796C4 /* GeneralViewController.swift */; };
 		18E2719F22F1ED9300A65C40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E2719E22F1ED9300A65C40 /* AppDelegate.swift */; };
-		18E271A122F1ED9300A65C40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E271A022F1ED9300A65C40 /* ViewController.swift */; };
 		18E271A422F1ED9300A65C40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E271A222F1ED9300A65C40 /* Main.storyboard */; };
 		18E271A722F1ED9300A65C40 /* UNbias.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18E271A522F1ED9300A65C40 /* UNbias.xcdatamodeld */; };
 		18E271A922F1ED9500A65C40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E271A822F1ED9500A65C40 /* Assets.xcassets */; };
@@ -51,9 +51,9 @@
 		1864302322F21BD6001796C4 /* MyJournalsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyJournalsTableViewController.swift; sourceTree = "<group>"; };
 		1864302522F21DF3001796C4 /* AddEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEntryViewController.swift; sourceTree = "<group>"; };
 		1864302722F21E0F001796C4 /* ShowEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowEntryViewController.swift; sourceTree = "<group>"; };
+		1864303522F3572A001796C4 /* GeneralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralViewController.swift; sourceTree = "<group>"; };
 		18E2719B22F1ED9300A65C40 /* UNbias.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UNbias.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E2719E22F1ED9300A65C40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18E271A022F1ED9300A65C40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18E271A322F1ED9300A65C40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18E271A622F1ED9300A65C40 /* UNbias.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UNbias.xcdatamodel; sourceTree = "<group>"; };
 		18E271A822F1ED9500A65C40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -116,12 +116,12 @@
 			isa = PBXGroup;
 			children = (
 				18E2719E22F1ED9300A65C40 /* AppDelegate.swift */,
-				18E271A022F1ED9300A65C40 /* ViewController.swift */,
 				18E271A222F1ED9300A65C40 /* Main.storyboard */,
 				1864302522F21DF3001796C4 /* AddEntryViewController.swift */,
 				1864302722F21E0F001796C4 /* ShowEntryViewController.swift */,
 				1864302322F21BD6001796C4 /* MyJournalsTableViewController.swift */,
 				1864301922F21AB8001796C4 /* SetGoalsViewContrtoller.swift */,
+				1864303522F3572A001796C4 /* GeneralViewController.swift */,
 				1864301B22F21ACA001796C4 /* RaceViewController.swift */,
 				1864301D22F21AD9001796C4 /* GenderViewController.swift */,
 				1864301F22F21AE8001796C4 /* AbilitiesViewController.swift */,
@@ -284,7 +284,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1864302022F21AE8001796C4 /* AbilitiesViewController.swift in Sources */,
-				18E271A122F1ED9300A65C40 /* ViewController.swift in Sources */,
 				1864301A22F21AB8001796C4 /* SetGoalsViewContrtoller.swift in Sources */,
 				1864302822F21E0F001796C4 /* ShowEntryViewController.swift in Sources */,
 				1864302622F21DF3001796C4 /* AddEntryViewController.swift in Sources */,
@@ -292,6 +291,7 @@
 				1864301E22F21AD9001796C4 /* GenderViewController.swift in Sources */,
 				1864302222F21AF6001796C4 /* OrientationViewController.swift in Sources */,
 				18E271A722F1ED9300A65C40 /* UNbias.xcdatamodeld in Sources */,
+				1864303622F3572A001796C4 /* GeneralViewController.swift in Sources */,
 				18E2719F22F1ED9300A65C40 /* AppDelegate.swift in Sources */,
 				1864302422F21BD6001796C4 /* MyJournalsTableViewController.swift in Sources */,
 			);
@@ -469,6 +469,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHG9FSQW26;
 				INFOPLIST_FILE = UNbias/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -486,6 +487,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHG9FSQW26;
 				INFOPLIST_FILE = UNbias/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

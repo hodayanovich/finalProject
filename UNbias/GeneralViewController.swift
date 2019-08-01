@@ -1,45 +1,34 @@
 //
-//  RaceViewController.swift
+//  GeneralViewController.swift
 //  UNbias
 //
-//  Created by Apple on 7/31/19.
+//  Created by Apple on 8/1/19.
 //  Copyright © 2019 Apple. All rights reserved.
 //
 
 import UIKit
 import SafariServices
 
-class RaceViewController: UIViewController {
+class GeneralViewController: UIViewController {
 
-    
-    @IBAction func articleButton(_ sender: Any) {
-        showSafariVC(for: "https://www.youtube.com/watch?v=cfwXUIwr9rY")
-    }
-    
-    
-    @IBAction func videoRace(_ sender: Any) {
+    @IBAction func videoButtonTapped(_ sender: UIButton) {
         showVideoVC(for: "https://www.youtube.com/watch?v=nh6DXH8H62YY")
-
+    }
+  
+    @IBAction func additionalButtonTapped(_ sender: UIButton) {
+        showAdditionalBottonVC(for: "https://www.youtube.com/watch?v=nh6DXH8H62YY")
     }
     
-    
-    @IBAction func resourceRace(_ sender: Any) {
-        showResourceVC(for: "https://www.youtube.com/watch?v=TrrQAea0RCk")
-
+ 
+    @IBAction func startJournallingGeneral(_ sender: Any) {
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
+        // Do any additional setup after loading the view.
     }
     
-   func showSafariVC(for url: String) {
-        guard let url = URL(string: url) else {
-            //alert
-            return
-        }
-        let safariVC = SFSafariViewController(url: url)
-        present(safariVC, animated: true)
-    }
     
     func showVideoVC(for url: String) {
         guard let url = URL(string: url) else {
@@ -50,15 +39,14 @@ class RaceViewController: UIViewController {
         present(videoVC, animated: true)
     }
     
-    func showResourceVC(for url: String) {
+    func showAdditionalBottonVC(for url: String) {
         guard let url = URL(string: url) else {
             //alert
             return
         }
-        let resourceVC = SFSafariViewController(url: url)
-        present(resourceVC, animated: true)
+        let additionalButtonVC = SFSafariViewController(url: url)
+        present(additionalButtonVC, animated: true)
     }
-    
     
 
     /*

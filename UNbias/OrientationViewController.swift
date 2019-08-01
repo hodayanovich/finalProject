@@ -7,9 +7,49 @@
 //
 
 import UIKit
+import SafariServices
 
 class OrientationViewController: UIViewController {
 
+    @IBAction func articleOrientation(_ sender: Any) {
+        showSafariVC(for: "https://www.youtube.com/watch?v=oTJ-oqwxdZY")
+    }
+    
+    @IBAction func videoOrientation(_ sender: Any) {
+        showVideoVC(for: "https://www.instagram.com/daya.novich/?hl=en")
+    }
+    
+    
+    @IBAction func resourceOrientation(_ sender: Any) {
+        showResourceVC(for: "https://www.krispykreme.com/locate/location-search")
+    }
+    
+    func showSafariVC(for url: String) {
+        guard let url = URL(string: url) else {
+            //alert
+            return
+        }
+        let safariVC = SFSafariViewController(url: url)
+        present(safariVC, animated: true)
+    }
+    
+    func showVideoVC(for url: String) {
+        guard let url = URL(string: url) else {
+            //alert
+            return
+        }
+        let videoVC = SFSafariViewController(url: url)
+        present(videoVC, animated: true)
+    }
+    
+    func showResourceVC(for url: String) {
+        guard let url = URL(string: url) else {
+            //alert
+            return
+        }
+        let resourceVC = SFSafariViewController(url: url)
+        present(resourceVC, animated: true)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 

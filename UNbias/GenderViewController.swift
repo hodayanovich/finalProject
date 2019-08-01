@@ -7,9 +7,51 @@
 //
 
 import UIKit
+import SafariServices
 
 class GenderViewController: UIViewController {
 
+    @IBAction func articleGender(_ sender: Any) {
+        showSafariVC(for: "http://sushicat.top/")
+    }
+    
+    
+    @IBAction func videoGender(_ sender: Any) {
+        showVideoVC(for: "https://jamesclear.com/articles")
+    }
+    
+    
+    @IBAction func resourceGender(_ sender: Any) {
+        showResourceVC(for: "https://en.wikipedia.org/wiki/Food")
+    }
+    
+    func showSafariVC(for url: String) {
+        guard let url = URL(string: url) else {
+            //alert
+            return
+        }
+        let safariVC = SFSafariViewController(url: url)
+        present(safariVC, animated: true)
+    }
+    
+    func showVideoVC(for url: String) {
+        guard let url = URL(string: url) else {
+            //alert
+            return
+        }
+        let videoVC = SFSafariViewController(url: url)
+        present(videoVC, animated: true)
+    }
+    
+    func showResourceVC(for url: String) {
+        guard let url = URL(string: url) else {
+            //alert
+            return
+        }
+        let resourceVC = SFSafariViewController(url: url)
+        present(resourceVC, animated: true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
