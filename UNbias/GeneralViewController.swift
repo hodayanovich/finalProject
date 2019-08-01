@@ -12,11 +12,11 @@ import SafariServices
 class GeneralViewController: UIViewController {
 
     @IBAction func videoButtonTapped(_ sender: UIButton) {
-        showVideoVC(for: "https://www.youtube.com/watch?v=nh6DXH8H62YY")
+        showVideoVC(for: "https://www.youtube.com/watch?v=hDd3bzA7450")
     }
   
     @IBAction func additionalButtonTapped(_ sender: UIButton) {
-        showAdditionalBottonVC(for: "https://www.youtube.com/watch?v=nh6DXH8H62YY")
+        showAdditionalBottonVC(for: "https://lovehasnolabels.com/")
     }
     
  

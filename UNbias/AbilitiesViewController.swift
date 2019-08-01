@@ -13,17 +13,17 @@ class AbilitiesViewController: UIViewController {
     
 
     @IBAction func articleAbilities(_ sender: Any) {
-        showSafariVC(for: "https://www.thewikigame.com/")
+        showSafariVC(for: "https://themighty.com/2019/07/kids-disabilities-belong-with-typical-kids/")
     }
     
     
     @IBAction func videoAbilities(_ sender: Any) {
-        showVideoVC(for: "https://www.youtube.com/watch?v=q-_G_Crh6ic")
+        showVideoVC(for: "https://www.youtube.com/playlist?list=PLaYgKAZMUNMx9Ca-9Z4NdIIwLCuQ7FJcB")
     }
     
     
     @IBAction func resourceAbilies(_ sender: Any) {
-        showResourceVC(for: "https://www.youtube.com/watch?v=Dkk9gvTmCXY")
+        showResourceVC(for: "https://themighty.com/2017/10/appropriate-vs-inappropriate-comments-about-someones-wheelchair/?utm_source=facebook&utm_medium=NP&utm_campaign=Muscular_Dystrophy_Association&fbclid=IwAR1DsS8L4oHMLZ9Od9XIXHLdMl-jANHHQ8qi_hwhKs-dUT311trN7AFFVoI")
     }
     
     func showSafariVC(for url: String) {

@@ -12,10 +12,8 @@
 		1864301E22F21AD9001796C4 /* GenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1864301D22F21AD9001796C4 /* GenderViewController.swift */; };
 		1864302022F21AE8001796C4 /* AbilitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1864301F22F21AE8001796C4 /* AbilitiesViewController.swift */; };
 		1864302222F21AF6001796C4 /* OrientationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1864302122F21AF6001796C4 /* OrientationViewController.swift */; };
-		1864302422F21BD6001796C4 /* MyJournalsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1864302322F21BD6001796C4 /* MyJournalsTableViewController.swift */; };
-		1864302622F21DF3001796C4 /* AddEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1864302522F21DF3001796C4 /* AddEntryViewController.swift */; };
-		1864302822F21E0F001796C4 /* ShowEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1864302722F21E0F001796C4 /* ShowEntryViewController.swift */; };
 		1864303622F3572A001796C4 /* GeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1864303522F3572A001796C4 /* GeneralViewController.swift */; };
+		1864303822F3708E001796C4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1864303722F3708D001796C4 /* MainViewController.swift */; };
 		18E2719F22F1ED9300A65C40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E2719E22F1ED9300A65C40 /* AppDelegate.swift */; };
 		18E271A422F1ED9300A65C40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E271A222F1ED9300A65C40 /* Main.storyboard */; };
 		18E271A722F1ED9300A65C40 /* UNbias.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18E271A522F1ED9300A65C40 /* UNbias.xcdatamodeld */; };
@@ -23,6 +21,14 @@
 		18E271AC22F1ED9500A65C40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E271AA22F1ED9500A65C40 /* LaunchScreen.storyboard */; };
 		18E271B722F1ED9500A65C40 /* UNbiasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E271B622F1ED9500A65C40 /* UNbiasTests.swift */; };
 		18E271C222F1ED9500A65C40 /* UNbiasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E271C122F1ED9500A65C40 /* UNbiasUITests.swift */; };
+		18E7C6B522F3759900586D55 /* ReallySimpleNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E7C6AF22F3759800586D55 /* ReallySimpleNote.swift */; };
+		18E7C6B622F3759900586D55 /* ReallySimpleNoteStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E7C6B122F3759900586D55 /* ReallySimpleNoteStorage.swift */; };
+		18E7C6B722F3759900586D55 /* ReallySimpleNoteDateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E7C6B322F3759900586D55 /* ReallySimpleNoteDateHelper.swift */; };
+		18E7C6B822F3759900586D55 /* ReallySimpleNoteCoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E7C6B422F3759900586D55 /* ReallySimpleNoteCoreDataHelper.swift */; };
+		18E7C6BD22F375B900586D55 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E7C6B922F375B900586D55 /* MasterViewController.swift */; };
+		18E7C6BE22F375B900586D55 /* ReallySimpleNoteCreateChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E7C6BA22F375B900586D55 /* ReallySimpleNoteCreateChangeViewController.swift */; };
+		18E7C6BF22F375B900586D55 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E7C6BB22F375B900586D55 /* DetailViewController.swift */; };
+		18E7C6C022F375B900586D55 /* ReallySimpleNoteUITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E7C6BC22F375B900586D55 /* ReallySimpleNoteUITableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,10 +54,8 @@
 		1864301D22F21AD9001796C4 /* GenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderViewController.swift; sourceTree = "<group>"; };
 		1864301F22F21AE8001796C4 /* AbilitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbilitiesViewController.swift; sourceTree = "<group>"; };
 		1864302122F21AF6001796C4 /* OrientationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientationViewController.swift; sourceTree = "<group>"; };
-		1864302322F21BD6001796C4 /* MyJournalsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyJournalsTableViewController.swift; sourceTree = "<group>"; };
-		1864302522F21DF3001796C4 /* AddEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEntryViewController.swift; sourceTree = "<group>"; };
-		1864302722F21E0F001796C4 /* ShowEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowEntryViewController.swift; sourceTree = "<group>"; };
 		1864303522F3572A001796C4 /* GeneralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralViewController.swift; sourceTree = "<group>"; };
+		1864303722F3708D001796C4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		18E2719B22F1ED9300A65C40 /* UNbias.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UNbias.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E2719E22F1ED9300A65C40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18E271A322F1ED9300A65C40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -65,6 +69,14 @@
 		18E271BD22F1ED9500A65C40 /* UNbiasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UNbiasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E271C122F1ED9500A65C40 /* UNbiasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNbiasUITests.swift; sourceTree = "<group>"; };
 		18E271C322F1ED9500A65C40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E7C6AF22F3759800586D55 /* ReallySimpleNote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReallySimpleNote.swift; sourceTree = "<group>"; };
+		18E7C6B122F3759900586D55 /* ReallySimpleNoteStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReallySimpleNoteStorage.swift; sourceTree = "<group>"; };
+		18E7C6B322F3759900586D55 /* ReallySimpleNoteDateHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReallySimpleNoteDateHelper.swift; sourceTree = "<group>"; };
+		18E7C6B422F3759900586D55 /* ReallySimpleNoteCoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReallySimpleNoteCoreDataHelper.swift; sourceTree = "<group>"; };
+		18E7C6B922F375B900586D55 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MasterViewController.swift; path = "../../journal-Outline/rsnt-really-simple-note-taking-ios/UI/MasterViewController.swift"; sourceTree = "<group>"; };
+		18E7C6BA22F375B900586D55 /* ReallySimpleNoteCreateChangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReallySimpleNoteCreateChangeViewController.swift; path = "../../journal-Outline/rsnt-really-simple-note-taking-ios/UI/ReallySimpleNoteCreateChangeViewController.swift"; sourceTree = "<group>"; };
+		18E7C6BB22F375B900586D55 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = "../../journal-Outline/rsnt-really-simple-note-taking-ios/UI/DetailViewController.swift"; sourceTree = "<group>"; };
+		18E7C6BC22F375B900586D55 /* ReallySimpleNoteUITableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReallySimpleNoteUITableViewCell.swift; path = "../../journal-Outline/rsnt-really-simple-note-taking-ios/UI/ReallySimpleNoteUITableViewCell.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,9 @@
 				18E271B522F1ED9500A65C40 /* UNbiasTests */,
 				18E271C022F1ED9500A65C40 /* UNbiasUITests */,
 				18E2719C22F1ED9300A65C40 /* Products */,
+				18E7C6AE22F3759800586D55 /* Note */,
+				18E7C6B022F3759900586D55 /* Storage */,
+				18E7C6B222F3759900586D55 /* Helpers */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,15 +132,17 @@
 			children = (
 				18E2719E22F1ED9300A65C40 /* AppDelegate.swift */,
 				18E271A222F1ED9300A65C40 /* Main.storyboard */,
-				1864302522F21DF3001796C4 /* AddEntryViewController.swift */,
-				1864302722F21E0F001796C4 /* ShowEntryViewController.swift */,
-				1864302322F21BD6001796C4 /* MyJournalsTableViewController.swift */,
+				1864303722F3708D001796C4 /* MainViewController.swift */,
 				1864301922F21AB8001796C4 /* SetGoalsViewContrtoller.swift */,
 				1864303522F3572A001796C4 /* GeneralViewController.swift */,
 				1864301B22F21ACA001796C4 /* RaceViewController.swift */,
 				1864301D22F21AD9001796C4 /* GenderViewController.swift */,
 				1864301F22F21AE8001796C4 /* AbilitiesViewController.swift */,
 				1864302122F21AF6001796C4 /* OrientationViewController.swift */,
+				18E7C6BB22F375B900586D55 /* DetailViewController.swift */,
+				18E7C6B922F375B900586D55 /* MasterViewController.swift */,
+				18E7C6BA22F375B900586D55 /* ReallySimpleNoteCreateChangeViewController.swift */,
+				18E7C6BC22F375B900586D55 /* ReallySimpleNoteUITableViewCell.swift */,
 				18E271A822F1ED9500A65C40 /* Assets.xcassets */,
 				18E271AA22F1ED9500A65C40 /* LaunchScreen.storyboard */,
 				18E271AD22F1ED9500A65C40 /* Info.plist */,
@@ -150,6 +167,34 @@
 				18E271C322F1ED9500A65C40 /* Info.plist */,
 			);
 			path = UNbiasUITests;
+			sourceTree = "<group>";
+		};
+		18E7C6AE22F3759800586D55 /* Note */ = {
+			isa = PBXGroup;
+			children = (
+				18E7C6AF22F3759800586D55 /* ReallySimpleNote.swift */,
+			);
+			name = Note;
+			path = "../journal-Outline/rsnt-really-simple-note-taking-ios/Note";
+			sourceTree = "<group>";
+		};
+		18E7C6B022F3759900586D55 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				18E7C6B122F3759900586D55 /* ReallySimpleNoteStorage.swift */,
+			);
+			name = Storage;
+			path = "../journal-Outline/rsnt-really-simple-note-taking-ios/Storage";
+			sourceTree = "<group>";
+		};
+		18E7C6B222F3759900586D55 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				18E7C6B322F3759900586D55 /* ReallySimpleNoteDateHelper.swift */,
+				18E7C6B422F3759900586D55 /* ReallySimpleNoteCoreDataHelper.swift */,
+			);
+			name = Helpers;
+			path = "../journal-Outline/rsnt-really-simple-note-taking-ios/Helpers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,17 +328,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E7C6B522F3759900586D55 /* ReallySimpleNote.swift in Sources */,
 				1864302022F21AE8001796C4 /* AbilitiesViewController.swift in Sources */,
 				1864301A22F21AB8001796C4 /* SetGoalsViewContrtoller.swift in Sources */,
-				1864302822F21E0F001796C4 /* ShowEntryViewController.swift in Sources */,
-				1864302622F21DF3001796C4 /* AddEntryViewController.swift in Sources */,
+				18E7C6B822F3759900586D55 /* ReallySimpleNoteCoreDataHelper.swift in Sources */,
+				1864303822F3708E001796C4 /* MainViewController.swift in Sources */,
 				1864301C22F21ACA001796C4 /* RaceViewController.swift in Sources */,
+				18E7C6BE22F375B900586D55 /* ReallySimpleNoteCreateChangeViewController.swift in Sources */,
+				18E7C6BF22F375B900586D55 /* DetailViewController.swift in Sources */,
 				1864301E22F21AD9001796C4 /* GenderViewController.swift in Sources */,
 				1864302222F21AF6001796C4 /* OrientationViewController.swift in Sources */,
 				18E271A722F1ED9300A65C40 /* UNbias.xcdatamodeld in Sources */,
+				18E7C6C022F375B900586D55 /* ReallySimpleNoteUITableViewCell.swift in Sources */,
+				18E7C6B722F3759900586D55 /* ReallySimpleNoteDateHelper.swift in Sources */,
 				1864303622F3572A001796C4 /* GeneralViewController.swift in Sources */,
 				18E2719F22F1ED9300A65C40 /* AppDelegate.swift in Sources */,
-				1864302422F21BD6001796C4 /* MyJournalsTableViewController.swift in Sources */,
+				18E7C6BD22F375B900586D55 /* MasterViewController.swift in Sources */,
+				18E7C6B622F3759900586D55 /* ReallySimpleNoteStorage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

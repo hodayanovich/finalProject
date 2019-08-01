@@ -13,18 +13,18 @@ class RaceViewController: UIViewController {
 
     
     @IBAction func articleButton(_ sender: Any) {
-        showSafariVC(for: "https://www.youtube.com/watch?v=cfwXUIwr9rY")
+        showSafariVC(for: "https://www.psychologytoday.com/us/blog/parenting-purpose/201809/we-all-have-racial-bias")
     }
     
     
     @IBAction func videoRace(_ sender: Any) {
-        showVideoVC(for: "https://www.youtube.com/watch?v=nh6DXH8H62YY")
+        showVideoVC(for: "https://www.youtube.com/watch?v=iBtbArJUiEM")
 
     }
     
     
     @IBAction func resourceRace(_ sender: Any) {
-        showResourceVC(for: "https://www.youtube.com/watch?v=TrrQAea0RCk")
+        showResourceVC(for: "https://www.racialequitytools.org/resourcefiles/olson.pdf")
 
     }
     override func viewDidLoad() {

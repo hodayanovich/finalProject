@@ -12,17 +12,17 @@ import SafariServices
 class GenderViewController: UIViewController {
 
     @IBAction func articleGender(_ sender: Any) {
-        showSafariVC(for: "http://sushicat.top/")
+        showSafariVC(for: "https://theconversation.com/us/topics/gender-bias-3490")
     }
     
     
     @IBAction func videoGender(_ sender: Any) {
-        showVideoVC(for: "https://jamesclear.com/articles")
+        showVideoVC(for: "https://www.youtube.com/watch?v=GEqRhNSiseI")
     }
     
     
     @IBAction func resourceGender(_ sender: Any) {
-        showResourceVC(for: "https://en.wikipedia.org/wiki/Food")
+        showResourceVC(for: "https://medium.com/athena-talks/how-to-be-a-great-male-ally-in-the-feminist-movement-843f5ef2b550")
     }
     
     func showSafariVC(for url: String) {
